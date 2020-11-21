@@ -1,0 +1,56 @@
+/* basic styles */
+
+*,
+*::before,
+*::after {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+
+html {
+  font-size: 62.5%;
+  scroll-behavior: smooth;
+  text-rendering: optimizeLegibility;
+}
+
+body {
+  cursor: default;
+  font-family: "Helvetica nue", sans-serif;
+}
+
+/* re-usable components */
+
+.row {
+  width: 100rem;
+  margin: auto;
+}
+
+.container {
+  width: 50%;
+  height: auto;
+  margin: 2% auto;
+  display: flex;
+  align-items: center;
+  justify-content: space-around;
+  flex-direction: row;
+}
+
+input {
+  outline: none;
+  border: 0.1rem solid #222;
+  padding: 0.5rem 1rem;
+}
+
+.btn {
+  padding: 0.8rem 1.5rem;
+  background: rebeccapurple;
+  color: #fff;
+  font-size: 1.2rem;
+  font-weight: 500;
+  text-transform: capitalize;
+  border-radius: 0.2rem;
+  cursor: pointer;
+  outline: none;
+  border: 0.1rem solid rebeccapurple;
+}
